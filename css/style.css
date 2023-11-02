@@ -76,8 +76,8 @@ nav #toggle, nav label{
     padding: 123px;
 }
 .main3{
-    width: 60%;
-    height: 900px;
+    position: relative;
+    height: 120%;
 }
 footer {
     display: flex;
@@ -137,6 +137,11 @@ footer {
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(75%, -70%);
+
 }
 .turnos h4{
     font-size: 22px;
@@ -221,6 +226,10 @@ footer {
 
 .galeria{
     display: block;
+}
+.galeria img:hover{
+    background-color: #0a86a533;
+    transform: scale(1.03)
 }
 .galeria2 {
     height: 100%;
