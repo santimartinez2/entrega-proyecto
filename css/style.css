@@ -18,6 +18,10 @@ header{
 .nav-wrapper li a:hover{
     color: rgb(12, 147, 236);
 }
+.logo{
+    width: 180px;
+    height: 60px;
+}
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +74,10 @@ nav #toggle, nav label{
 }
 .main2{
     padding: 123px;
+}
+.main3{
+    width: 60%;
+    height: 900px;
 }
 footer {
     display: flex;
