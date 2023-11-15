@@ -127,56 +127,6 @@ footer {
     font-size: 2.1875rem;
     text-decoration: none;
 }
-.turnos{
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
-    background-color: rgb(70, 136, 212);
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px grey;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(75%, -70%);
-
-}
-.turnos h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-.turnos p{
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-.turnos a{
-    color: white;
-    text-decoration: none
-}
-.turnos a:hover{
-    color: white;
-    text-decoration: underline;
-
-}
-.turnos .button{
-    width: 100%;
-    background-color: blue;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: shaking 3s infinite;
-}
 @keyframes shaking {
     10%{
         transform: scale(1.05) rotate(5deg);
@@ -362,6 +312,10 @@ footer {
         width: 300px;
         height: 400px;
     }
+    .tarjeta{
+        width: 100%;
+        font-size: 10px;
+    }
 }
 @media(max-width: 425px){
     .cardContainer{
@@ -376,6 +330,9 @@ footer {
     footer{
         height: 150px;
     }
+    .turnos{
+        border-right: 200px;
+    }
 }
 @media(max-width:768px){
     .main{
@@ -387,4 +344,58 @@ footer {
     background-image: url(../assets/img/error.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.main3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.main3-mapa{
+    width: 60%;
+}
+.main3-mapa iframe{
+    width: 100%;
+}
+.turnos{
+    width: 400px;
+    background-color: rgb(70, 136, 212);
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px grey;
+}
+.turnos h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.turnos p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.turnos a{
+    color: white;
+    text-decoration: none
+}
+.turnos a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+.turnos .button{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shaking 3s infinite;
 }
