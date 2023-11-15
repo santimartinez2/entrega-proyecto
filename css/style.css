@@ -366,6 +366,7 @@ footer {
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px grey;
+    margin: auto;
 }
 .turnos h4{
     font-size: 22px;
