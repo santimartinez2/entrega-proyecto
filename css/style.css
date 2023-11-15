@@ -162,7 +162,7 @@ footer {
     text-decoration: underline;
 
 }
-.turnos .boton{
+.turnos .button{
     width: 100%;
     background-color: blue;
     border: none;
@@ -170,6 +170,24 @@ footer {
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shaking 3s infinite;
+}
+@keyframes shaking {
+    10%{
+        transform: scale(1.05) rotate(5deg);
+    }
+    20%{
+        transform: scale(1.05) rotate(-5deg);
+    }
+    30%{
+        transform: scale(1.05) rotate(5deg);
+    }
+    40%{
+        transform: none
+    }
 }
 .controls{
     width: 100%;
