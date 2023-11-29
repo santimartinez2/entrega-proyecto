@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    padding: 30px;
+    font-family: 'calibri';
+}
+.subClass{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.875rem;
+    color: white;
+    font-size: .75rem;
+}
+.subClass h2{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: .9375rem;
+}
+.pie a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.wpp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
