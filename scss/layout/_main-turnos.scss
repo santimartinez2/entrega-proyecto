@@ -53,20 +53,6 @@
     align-items: center;
     animation: shaking 3s infinite;
 }
-.auto{
-    background-color: white;
-    background-image: url(../assets/img/chau.jpg);
-    width: 100%;
-    height: 45rem;
-    background-position: 0%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.auto h1{
-    text-align: right;
-    font-size: 2.1875rem;
-    text-decoration: none;
-}
 @keyframes shaking {
     10%{
         transform: scale(1.05) rotate(5deg);
@@ -89,4 +75,14 @@
     padding-bottom: .625rem;
     padding-left: .625rem;
     border: 2px solid lightblue;
+}
+.controls{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+    font-family: 'calibri';
+    font-size: 18px;
 }

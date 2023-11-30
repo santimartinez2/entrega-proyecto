@@ -92,9 +92,6 @@ nav #toggle, nav label {
   nav #toggle:checked ~ .menu {
     height: 100%; } }
 
-.main2 {
-  padding: 123px; }
-
 .main3 {
   position: relative;
   height: 120%; }
@@ -108,6 +105,17 @@ nav #toggle, nav label {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+.main-galeria h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'calibri';
+  background-color: #0c93ec; }
+
+.galeria {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.875rem; }
 
 .galeria {
   display: block; }
@@ -159,20 +167,14 @@ nav #toggle, nav label {
   width: 100%;
   object-fit: cover; }
 
-.controls {
-  width: 100%;
-  background-color: white;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid blue;
-  font-family: 'calibri';
-  font-size: 18px; }
+.main2 {
+  padding: 0; }
 
-.galeria {
+.main2 h1 {
   text-align: center;
-  text-decoration: underline;
-  font-size: 1.875rem; }
+  font-size: 40px;
+  font-family: 'calibri';
+  background-color: #0c93ec; }
 
 .card {
   width: 21.875rem;
@@ -210,43 +212,33 @@ nav #toggle, nav label {
   font-family: 'calibri';
   font-size: 16px; }
 
-.tarjeta {
-  background-color: #D2F1F3;
-  width: 700px;
-  height: 60px;
-  border: 2px solid rgba(0, 0, 0, 0.062);
-  border-radius: 1.25rem;
-  overflow: hidden;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.151);
+.index-main h1 {
+  text-align: center;
+  font-size: 40px;
   font-family: 'calibri';
-  font-size: 16px; }
+  background-color: #0c93ec; }
 
-.tarjeta h2 {
-  justify-content: center;
+.section-servicios {
+  width: 50%;
+  margin: auto;
   display: flex;
-  padding-top: 14px; }
-
-.tarjeta div {
-  width: 100%;
-  height: 75%; }
-
-.tarjeta div img {
-  width: 100%;
-  height: 80%;
-  object-fit: cover; }
-
-.tarjeta:hover {
-  background-color: #0a86a533;
-  transform: scale(0.95); }
-
-.card-servicios {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  gap: 3.4375rem;
-  align-items: flex-end;
-  padding-top: 80px;
-  padding-right: 40px; }
+  align-items: center;
+  gap: 2.5rem;
+  overflow: hidden; }
+  .section-servicios img {
+    width: 150px;
+    height: 200px;
+    gap: 2.5rem;
+    transform: skew(-10deg);
+    transition: 0.5s;
+    object-fit: cover; }
+  .section-servicios img:hover {
+    transform: scale(1.1); }
+
+.section-servicios h1 {
+  text-align: center;
+  background-color: red; }
 
 .main3 {
   display: flex;
@@ -301,20 +293,6 @@ nav #toggle, nav label {
   align-items: center;
   animation: shaking 3s infinite; }
 
-.auto {
-  background-color: white;
-  background-image: url(../assets/img/chau.jpg);
-  width: 100%;
-  height: 45rem;
-  background-position: 0%;
-  background-size: contain;
-  background-repeat: no-repeat; }
-
-.auto h1 {
-  text-align: right;
-  font-size: 2.1875rem;
-  text-decoration: none; }
-
 @keyframes shaking {
   10% {
     transform: scale(1.05) rotate(5deg); }
@@ -333,6 +311,16 @@ nav #toggle, nav label {
   padding-bottom: .625rem;
   padding-left: .625rem;
   border: 2px solid lightblue; }
+
+.controls {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid blue;
+  font-family: 'calibri';
+  font-size: 18px; }
 
 @media (max-width: 320px) {
   .turnos {
