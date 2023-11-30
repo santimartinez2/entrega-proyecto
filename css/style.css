@@ -44,6 +44,10 @@ header {
   margin: 0 auto;
   padding: 1rem; }
   .nav-wrapper nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: #add8e6;
     padding: 1rem 1.5rem; }
     .nav-wrapper nav #toggle, .nav-wrapper nav nav label {
