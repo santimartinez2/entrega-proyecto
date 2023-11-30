@@ -56,7 +56,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
+  background-color: #add8e6;
   padding: 1rem 1.5rem; }
 
 nav .logo {
@@ -160,7 +160,7 @@ nav #toggle, nav label {
   text-align: center;
   font-size: 40px;
   font-family: 'calibri';
-  background-color: #0c93ec; }
+  background-color: #0c92ec38; }
 
 .galeria {
   text-align: center;
@@ -225,7 +225,7 @@ nav #toggle, nav label {
   text-align: center;
   font-size: 40px;
   font-family: 'calibri';
-  background-color: #0c93ec; }
+  background-color: #0c92ec38; }
 
 .card {
   width: 21.875rem;
@@ -269,7 +269,7 @@ nav #toggle, nav label {
   text-align: center;
   font-size: 40px;
   font-family: 'calibri';
-  background-color: #0c93ec; }
+  background-color: #0c92ec38; }
 
 .section-servicios {
   width: 55%;
@@ -290,10 +290,21 @@ nav #toggle, nav label {
     object-fit: cover; }
   .section-servicios img:hover {
     transform: scale(1.1); }
+  .section-servicios h2 {
+    color: #1489b1;
+    font-family: 'calibri';
+    font-size: 25px; }
+  .section-servicios p {
+    font-family: 'calibri';
+    font-size: 20px; }
 
-.section-servicios h1 {
-  text-align: center;
-  background-color: red; }
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%; }
+  to {
+    opacity: 1;
+    scale: 100%; } }
 
 .main3 {
   display: flex;
