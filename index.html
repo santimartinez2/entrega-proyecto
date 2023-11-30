@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/img/ico.ico">
+    <script src="https://kit.fontawesome.com/9ef1d71a4e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="nav-wrapper">
@@ -38,14 +39,53 @@
             </div>
         </nav>
     </header>
-    <main class="main">
-        <div class="pag-princ">
-            <div class="content-section">
-                <div class="tarjeta-2">
-                    <h1>Vanzetti Hnos. Estética del automotor</h1>
-                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                    <button>Explorar</button>
+    <main>
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-1">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="./assets/img/aaaa.jpg">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
                 </div>
+                <div class="itemCarrousel" id="itemCarrousel-2">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="./assets/img/lala.jpg">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-3">
+                    <div class="itemCarrouselTarjeta">
+                        <img src="./assets/img/chau.jpg">
+                    </div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-1">•</a>
+                <a href="#itemCarrousel-2">•</a>
+                <a href="#itemCarrousel-3">•</a>
             </div>
         </div>
     </main>

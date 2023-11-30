@@ -5,16 +5,16 @@
     background-color: #0c93ec;
 }
 .section-servicios{
-    width: 50%;
+    width: 55%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 3.75rem;
     overflow: hidden;
     img{
-        width: 150px;
-        height: 200px;
+        width: 190px;
+        height: 250px;
         gap: 2.5rem;
         transform: skew(-10deg);
         transition: 0.5s;
@@ -23,6 +23,8 @@
     img:hover{
         transform: scale(1.1);
     }
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .section-servicios h1{
     text-align: center;

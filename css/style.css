@@ -96,10 +96,60 @@ nav #toggle, nav label {
   position: relative;
   height: 120%; }
 
-.main {
+.carrousel {
+  width: 100%; }
+
+.conteCarrousel {
   width: 100%;
-  height: 740px;
-  background-image: url(../assets/img/holaaa.jpg); }
+  height: 700px;
+  overflow: hidden; }
+
+.itemCarrousel {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.itemCarrouselTarjeta {
+  width: 100%;
+  height: 100%; }
+
+.itemCarrouselArrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; }
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer; }
+
+#itemCarrousel-1 {
+  background-color: #e23232; }
+
+#itemCarrousel-2 {
+  background-color: #32c8e2; }
+
+#itemCarrousel-3 {
+  background-color: #c8e232; }
+
+.conteCarrouselController {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+
+.conteCarrouselController > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: grey; }
+
+.itemCarrouselArrows > a > i {
+  color: white; }
 
 * {
   margin: 0;
@@ -115,7 +165,8 @@ nav #toggle, nav label {
 .galeria {
   text-align: center;
   text-decoration: underline;
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+  padding-top: 30px; }
 
 .galeria {
   display: block; }
@@ -210,7 +261,9 @@ nav #toggle, nav label {
   align-items: center;
   margin-top: 0;
   font-family: 'calibri';
-  font-size: 16px; }
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom: 100px; }
 
 .index-main h1 {
   text-align: center;
@@ -219,16 +272,18 @@ nav #toggle, nav label {
   background-color: #0c93ec; }
 
 .section-servicios {
-  width: 50%;
+  width: 55%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
-  overflow: hidden; }
+  gap: 3.75rem;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .section-servicios img {
-    width: 150px;
-    height: 200px;
+    width: 190px;
+    height: 250px;
     gap: 2.5rem;
     transform: skew(-10deg);
     transition: 0.5s;
