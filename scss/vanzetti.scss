@@ -1,3 +1,7 @@
+@import"./utilities/function";
+@import"./utilities/maps";
+@import"./utilities/mixins";
+@import"./utilities/variables";
 @import"./layout/footer";
 @import"./layout/header";
 @import"./layout/index";
@@ -6,10 +10,7 @@
 @import"./layout/main-quienes-somos";
 @import"./layout/main-servicios";
 @import"./layout/main-turnos";
-@import"./utilities/function";
-@import"./utilities/maps";
-@import"./utilities/mixins";
-@import"./utilities/variables";
+@import"./layout/error404";
 @import"./layout/media/query-320";
 @import"./layout/media/query-425";
 @import"./layout/media/query-768";
