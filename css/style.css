@@ -45,12 +45,14 @@ header {
   padding: 1rem; }
   .nav-wrapper nav {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: none;
     background-color: #add8e6;
     padding: 1rem 1.5rem; }
-    .nav-wrapper nav #toggle, .nav-wrapper nav nav label {
+    .nav-wrapper nav #toggle, .nav-wrapper nav label {
       display: none; }
     .nav-wrapper nav .logo {
       width: 180px;
@@ -62,21 +64,11 @@ header {
       list-style: none;
       display: flex;
       gap: 2rem; }
-      .nav-wrapper nav .menu ul li a:hover {
-        color: #0c93ec; }
-        .nav-wrapper nav .menu ul li a:hover a {
-          text-decoration: none;
-          color: rgba(0, 0, 0, 0.767); }
-
-.nav-wrapper li a:hover {
-  color: #0c93ec; }
-
-a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.767); }
-
-nav #toggle, nav label {
-  display: none; }
+      .nav-wrapper nav .menu ul li a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.767); }
+        .nav-wrapper nav .menu ul li a:hover {
+          color: #0c93ec; }
 
 @media (max-width: 48rem) {
   nav .menu {

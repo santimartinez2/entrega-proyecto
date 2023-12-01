@@ -10,13 +10,10 @@ header{
     margin: 0 auto;
     padding: 1rem;
     nav{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(row,wrap,space-between,center,none);        
         background-color: #add8e6;
         padding: 1rem 1.5rem;
-        #toggle, nav label{
+        #toggle, label{
             display: none;
         }
         .logo{
@@ -31,27 +28,18 @@ header{
                 list-style: none;
                 display: flex;
                 gap: 2rem;
-                li a:hover{
-                    color: #0c93ec;
+                li{
                     a{
                         text-decoration: none;
-                        color: rgba(0, 0, 0, 0.767)
+                        color: rgba(0, 0, 0, 0.767);
+                        &:hover{
+                            color: #0c93ec;
+                        }
                     }
                 }
             }
         }
     }
-}
-.nav-wrapper li a:hover{
-    color: #0c93ec;
-}
-
-a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.767);
-}
-nav #toggle, nav label{
-    display: none;
 }
 @media(max-width:48rem){
     nav .menu{
