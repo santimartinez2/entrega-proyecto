@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   background-color: #181818;
   padding: 30px;
-  font-family: 'calibri'; }
+  font-family: "calibri"; }
 
 .subClass {
   display: flex;
@@ -153,7 +153,7 @@ header {
 .main-galeria h1 {
   text-align: center;
   font-size: 40px;
-  font-family: 'calibri';
+  font-family: "calibri";
   background-color: #0c92ec38; }
 
 .galeria {
@@ -218,7 +218,7 @@ header {
 .main2 h1 {
   text-align: center;
   font-size: 40px;
-  font-family: 'calibri';
+  font-family: "calibri";
   background-color: #0c92ec38; }
 
 .card {
@@ -262,7 +262,7 @@ header {
 .index-main h1 {
   text-align: center;
   font-size: 40px;
-  font-family: 'calibri';
+  font-family: "calibri";
   background-color: #0c92ec38; }
 
 .section-servicios {

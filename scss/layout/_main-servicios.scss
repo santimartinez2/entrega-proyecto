@@ -1,8 +1,8 @@
 .index-main h1{
     text-align: center;
     font-size: 40px;
-    font-family:'calibri';
-    background-color: #0c92ec38;
+    font-family:map-get($font , calibri );
+    background-color: map-get($color , celeste );
 }
 .section-servicios{
     width: 55%;

@@ -1,9 +1,9 @@
 footer {
     display: flex;
     flex-direction: column;
-    background-color: #181818;
+    background-color: map-get($color , negro );
     padding: 30px;
-    font-family: 'calibri';
+    font-family: map-get($font , calibri );
 }
 .subClass{
     display: flex;
