@@ -3,4 +3,24 @@
         flex-direction: column;
         gap: .3125rem;
     }
+    .section-servicios{
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 98%;
+        border-left: 10px;
+    }
+    .section-servicios img{
+        width: 140px;
+        height: 180px;
+    }
+    .section-servicios h2{
+        font-size: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .section-servicios p{
+        font-size: 15px;
+        justify-content: center;
+    }
 }
