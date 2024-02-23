@@ -145,6 +145,12 @@ header {
 .itemCarrouselArrows > a > i {
   color: white; }
 
+.home-icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -334,7 +340,10 @@ header {
     height: 100px;
     width: 100px;
     padding-bottom: 10px;
-    margin-left: 110px; } }
+    margin-left: 110px; }
+  .icon-home {
+    width: 250px;
+    height: 130px; } }
 
 @media (max-width: 768px) {
   .main {
@@ -361,4 +370,7 @@ header {
     border-right: 200px; }
   .error-404 h1 {
     font-size: 65px;
-    padding-top: 0; } }
+    padding-top: 0; }
+  .home-icon {
+    padding-top: 95px;
+    padding-bottom: 95px; } }
