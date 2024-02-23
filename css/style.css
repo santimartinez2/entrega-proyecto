@@ -150,68 +150,6 @@ header {
   padding: 0;
   box-sizing: border-box; }
 
-.main-galeria h1 {
-  text-align: center;
-  font-size: 40px;
-  font-family: "calibri";
-  background-color: #0c92ec38; }
-
-.galeria {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 1.875rem;
-  padding-top: 30px; }
-
-.galeria {
-  display: block; }
-
-.galeria img:hover {
-  background-color: #0a86a533;
-  transform: scale(1.03); }
-
-.galeria2 {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: repeat(2, 12.5rem);
-  grid-template-areas: "img1 img4 img3 img3 img2" "img5 img5 img3 img3 img2" "img5 img5 img3 img3 img2" "img6 img6 img6 img6 img6"; }
-
-.item1 {
-  grid-area: img1;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
-.item2 {
-  grid-area: img2;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
-.item3 {
-  grid-area: img3;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
-.item4 {
-  grid-area: img4;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
-.item5 {
-  grid-area: img5;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
-.item6 {
-  grid-area: img6;
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
 .main2 {
   padding: 0; }
 
@@ -311,76 +249,15 @@ header {
 .main3-mapa iframe {
   width: 100%; }
 
-.turnos {
-  width: 400px;
-  background-color: #4688d4;
-  padding: 30px;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: 'calibri';
-  color: white;
-  box-shadow: 7px 13px 37px grey;
-  margin: auto; }
-
-.turnos h4 {
-  font-size: 22px;
-  margin-bottom: 20px; }
-
-.turnos p {
-  height: 40px;
+.contenedor {
   text-align: center;
-  font-size: 18px;
-  line-height: 40px; }
+  padding-top: 25px;
+  padding-right: 220px; }
 
-.turnos a {
-  color: white;
-  text-decoration: none; }
-
-.turnos a:hover {
-  color: white;
-  text-decoration: underline; }
-
-.turnos .button {
-  width: 100%;
-  background-color: blue;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: shaking 3s infinite; }
-
-@keyframes shaking {
-  10% {
-    transform: scale(1.05) rotate(5deg); }
-  20% {
-    transform: scale(1.05) rotate(-5deg); }
-  30% {
-    transform: scale(1.05) rotate(5deg); }
-  40% {
-    transform: none; } }
-
-.section-boton a {
-  background-color: khaki;
-  padding: 2.5rem;
-  padding-top: .0187rem;
-  padding-right: .625rem;
-  padding-bottom: .625rem;
-  padding-left: .625rem;
-  border: 2px solid lightblue; }
-
-.controls {
-  width: 100%;
-  background-color: white;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid blue;
-  font-family: 'calibri';
-  font-size: 18px; }
+.wpp-imagen {
+  height: 250px;
+  width: 250px;
+  text-align: center; }
 
 .error-404 {
   display: flex;
@@ -450,7 +327,14 @@ header {
     margin-right: -10px; }
   .section-servicios p {
     font-size: 15px;
-    justify-content: center; } }
+    justify-content: center; }
+  .contenedor {
+    text-align: center; }
+  .wpp-imagen {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+    margin-left: 110px; } }
 
 @media (max-width: 768px) {
   .main {
@@ -458,7 +342,15 @@ header {
   .content-section {
     flex-direction: column; }
   .main3-mapa {
-    width: 100%; } }
+    width: 100%; }
+  .contenedor {
+    text-align: center;
+    display: flex; }
+  .wpp-imagen {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+    margin-left: 110px; } }
 
 @media (max-width: 1024px) {
   .main {

@@ -10,79 +10,14 @@
 .main3-mapa iframe{
     width: 100%;
 }
-.turnos{
-    width: 400px;
-    background-color: rgb(70, 136, 212);
-    padding: 30px;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px grey;
-    margin: auto;
-}
-.turnos h4{
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-.turnos p{
-    height: 40px;
+.contenedor{
     text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    padding-top: 25px;
+    padding-right: 220px;
 }
-.turnos a{
-    color: white;
-    text-decoration: none
+.wpp-imagen{
+    height: 250px;
+    width: 250px;
+    text-align: center;
 }
-.turnos a:hover{
-    color: white;
-    text-decoration: underline;
 
-}
-.turnos .button{
-    width: 100%;
-    background-color: blue;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: shaking 3s infinite;
-}
-@keyframes shaking {
-    10%{
-        transform: scale(1.05) rotate(5deg);
-    }
-    20%{
-        transform: scale(1.05) rotate(-5deg);
-    }
-    30%{
-        transform: scale(1.05) rotate(5deg);
-    }
-    40%{
-        transform: none
-    }
-}
-.section-boton a{
-    background-color: khaki;
-    padding: 2.5rem;
-    padding-top: .0187rem;
-    padding-right: .625rem;
-    padding-bottom: .625rem;
-    padding-left: .625rem;
-    border: 2px solid lightblue;
-}
-.controls{
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid blue;
-    font-family: 'calibri';
-    font-size: 18px;
-}
